@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2596BD88A6662C57C0E56406 /* libPods-Practice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C82578041F18B68CA27AABD /* libPods-Practice.a */; };
+		C921B006207F2A2500AE840D /* app3D1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C921B005207F2A2500AE840D /* app3D1.cpp */; };
 		C93ECF40207DCA3700D4FF38 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93ECF3F207DCA3700D4FF38 /* GLUT.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C93ECF42207DCA3D00D4FF38 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93ECF41207DCA3D00D4FF38 /* OpenGL.framework */; };
 		C93ECF47207DCA7400D4FF38 /* app2D1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C93ECF46207DCA7400D4FF38 /* app2D1.cpp */; };
@@ -31,6 +32,7 @@
 		11F1571B84CFF09A263443D0 /* Pods-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practice/Pods-Practice.release.xcconfig"; sourceTree = "<group>"; };
 		5C82578041F18B68CA27AABD /* libPods-Practice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Practice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6151FF6F4BDBFAB2C3FEDB /* Pods-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practice/Pods-Practice.debug.xcconfig"; sourceTree = "<group>"; };
+		C921B005207F2A2500AE840D /* app3D1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = app3D1.cpp; sourceTree = "<group>"; };
 		C93ECF34207DCA0C00D4FF38 /* Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93ECF3F207DCA3700D4FF38 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		C93ECF41207DCA3D00D4FF38 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -86,6 +88,7 @@
 				C93ECF46207DCA7400D4FF38 /* app2D1.cpp */,
 				C9FFB99B207E234400E86BB8 /* app2D2.cpp */,
 				C9FFB99D207E2C9A00E86BB8 /* app2D3.cpp */,
+				C921B005207F2A2500AE840D /* app3D1.cpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C921B006207F2A2500AE840D /* app3D1.cpp in Sources */,
 				C9FFB99C207E234400E86BB8 /* app2D2.cpp in Sources */,
 				C93ECF47207DCA7400D4FF38 /* app2D1.cpp in Sources */,
 				C9FFB99E207E2C9A00E86BB8 /* app2D3.cpp in Sources */,
